@@ -220,7 +220,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 200;
 		line-height: 1.1;
 		letter-spacing: -0.015em;
 		margin: 0 0 1rem 0;
@@ -262,7 +262,7 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 1.1rem;
+		font-size: 1rem;
 		margin: 0 0 0.5rem 0;
 	}
 
@@ -359,7 +359,7 @@ input, select, textarea {
 		}
 
 		h4 {
-			font-size: 1rem;
+			font-size: 0.75rem;
 		}
 
 	}

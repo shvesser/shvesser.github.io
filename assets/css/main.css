@@ -3559,7 +3559,7 @@ input, select, textarea {
 				border-radius: 0;
 			}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1200px) {
 
 			.banner.style1 .content {
 				padding: 1.5rem 5rem 0rem 4rem ;
@@ -3567,7 +3567,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1024px) {
 
 			.banner.style1 .content {
 				padding: 1.5rem 4rem 2rem 4rem ;
@@ -3575,7 +3575,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 980px) {
+		@media screen and (max-width: 768px) {
 
 			.banner.style1 .content {
 				padding: 1.5rem 3rem 1.75rem 3rem ;
@@ -3583,12 +3583,36 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 480px) {
 
 			.banner.style1 .content {
 				padding: 1rem 2rem 0.5rem 2rem ;
 			}
-			
+		
+			@media screen and (max-width: 768px) and (orientation: portrait) {
+
+				.banner.style1.fullscreen .content {
+					min-height: 30vh;
+				}
+
+				.banner.style1.fullscreen .image {
+					height: 45vh;
+				}
+
+			}
+			@media screen and (max-width: 480px) and (orientation: portrait) {
+
+				.banner.style1.fullscreen .content {
+					min-height: 30vh;
+				}
+
+				.banner.style1.fullscreen .image {
+					height: 30vh;
+				}
+
+			}	
+
+
 
 		}
 
@@ -3633,17 +3657,7 @@ input, select, textarea {
 			min-height: 100vh;
 		}
 
-			@media screen and (orientation: portrait) {
-
-				.banner.style1.fullscreen .content {
-					min-height: 30vh;
-				}
-
-				.banner.style1.fullscreen .image {
-					height: 30vh;
-				}
-
-			}
+			
 
 		.banner.style1.orient-right {
 			-moz-flex-direction: row-reverse;

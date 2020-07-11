@@ -142,15 +142,15 @@ input, select, textarea {
 			html {
 				font-size: 15pt;
 			}
-
 		}
 
 		@media screen and (max-width: 360px) {
 
 			html {
 				font-size: 10pt;
+				
 			}
-
+			
 		}
 
 	body {
@@ -3601,7 +3601,7 @@ input, select, textarea {
 					display: -webkit-flex;
 					display: -ms-flex;
 					display: table-cell;
-    				vertical-align:middle;
+    			vertical-align:middle;
 					-moz-flex-direction: column;
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;

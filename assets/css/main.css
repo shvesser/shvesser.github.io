@@ -3,6 +3,7 @@
 :root {
 	--hl-color: #db3056;
 	--blkq-color: #db3056;
+	--lnk-color: #db3056;
 }
 /*
 	Story by HTML5 UP
@@ -245,9 +246,9 @@ input, select, textarea {
 
 		h6 a {
 			
-					border-bottom:var(--hl-color) 4px solid;
+					border-bottom:var(--lnk-color) 1px solid;
 					display: inline-block;
-					line-height: 1;
+					line-height: 1.4em;
 		}
 			.hover {
 					color: var(--hl-color);

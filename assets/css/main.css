@@ -3582,6 +3582,7 @@ input, select, textarea {
 			.banner.style1 .content {
 				padding: 1.5rem 2rem 0.5rem 2rem ;
 			}
+			
 
 		}
 
@@ -3631,7 +3632,7 @@ input, select, textarea {
 				}
 
 				.banner.style1.fullscreen .image {
-					height: 50vh;
+					height: 40vh;
 				}
 
 			}

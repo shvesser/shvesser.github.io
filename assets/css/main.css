@@ -3600,7 +3600,8 @@ input, select, textarea {
 					display: -moz-flex;
 					display: -webkit-flex;
 					display: -ms-flex;
-					display: flex;
+					display: table-cell;
+    				vertical-align:middle;
 					-moz-flex-direction: column;
 					-webkit-flex-direction: column;
 					-ms-flex-direction: column;
@@ -3611,6 +3612,7 @@ input, select, textarea {
 					justify-content: center;
 					width: 100%;
 					max-width: 100%;
+					align-content: flex-start;
 				}
 
 				.banner.style1 .image {

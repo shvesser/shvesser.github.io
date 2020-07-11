@@ -139,7 +139,7 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			html {
+			textarea {
 				font-size: 1rem;
 			}
 		}
@@ -163,8 +163,14 @@ input, select, textarea {
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
+		
 	}
-
+	textarea {
+		font-family: "Noto Sans", Helvetica, sans-serif;
+		font-size: 1,3rem;
+		font-weight: 300;
+		line-height: 1.65;
+	}
 	a {
 		-moz-transition: color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out;

@@ -4,6 +4,7 @@
 	--hl-color: #db3056;
 	--blkq-color: #db3056;
 	--lnk-color: #db3056;
+	--imgbkg-color:#1E1E1E;
 }
 /*
 	Story by HTML5 UP
@@ -35,6 +36,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	-webkit-text-size-adjust: none;
 }
 
 ol, ul {
@@ -53,10 +55,6 @@ blockquote, q {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-body {
-	-webkit-text-size-adjust: none;
 }
 
 mark {
@@ -214,7 +212,13 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 600;
+		font-weight: 700;
+	}
+
+	.red {
+		color: var(--hl-color);
+		text-align: right;
+		margin: 0 1.5rem 0 0;
 	}
 
 	em, i {
@@ -256,7 +260,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 3.5rem;
-		line-height: 1.2;
+		line-height: 1em;
 		margin: 0 0 0.75rem 0;
 		
 	}
@@ -266,14 +270,14 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.5rem;
+		font-size: 1.35rem;
 		letter-spacing: 0rem;
-		margin: 1.5rem 0 0.35rem 0;
+		margin: 1.5rem 0 0.75rem 0;
 	}
 
 	h4 {
 		font-size: 0.9rem;
-		margin: 0 0 0.5rem 0;
+		margin: 0 0 1rem 0;
 	}
 
 	h5 {
@@ -283,7 +287,7 @@ input, select, textarea {
 	}
 
 	h6 {
-		font-size: 1.05rem;
+		font-size: 1em;
 	}
 	
 
@@ -369,7 +373,7 @@ input, select, textarea {
 		}
 
 		h4 {
-			font-size: 0.85rem;
+			font-size: 1.15rem;
 		}
 
 	}
@@ -1644,7 +1648,7 @@ input, select, textarea {
 					box-sizing: border-box;
 				}
 
-				.row.gtr-uniform > * > :last-child {
+				.row.gtr-uniform < * < :last-child {
 					margin-bottom: 0;
 				}
 
@@ -2706,7 +2710,7 @@ input, select, textarea {
 		}
 
 			.image.left img, .image.right img {
-				width: 50%;
+				width: 200%;
 			}
 
 		.image.left {
@@ -2755,12 +2759,13 @@ input, select, textarea {
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2rem 0;
+		margin: 0 0 0 0;
 		padding-left: 1rem;
 	}
 
 		ul li {
-			padding-left: 0.5rem;
+			padding-left: 0rem;
+			padding-bottom: 0.5rem;
 		}
 
 		ul.alt {
@@ -2848,15 +2853,17 @@ input, select, textarea {
 			-webkit-flex-direction: column;
 			-ms-flex-direction: column;
 			flex-direction: column;
-			margin-left: 0;
+			margin-left: 0rem;
+			background-color: var(--imgbkg-color);
+			width: 45%;
 		}
 
 			ul.actions.stacked li {
-				padding: 1.3rem 0 0 0;
+				padding: 2rem 0 0 0;
 			}
 
 				ul.actions.stacked li:first-child {
-					padding-top: 0;
+					padding-top: 2rem;
 				}
 
 		ul.actions.fit {
@@ -3520,7 +3527,7 @@ input, select, textarea {
 	}
 
 		.banner.style1 .content {
-			padding: 7rem 7rem 5rem 7rem ;
+			padding: 2rem 7rem 5rem 7rem ;
 			-moz-align-self: center;
 			-webkit-align-self: center;
 			-ms-align-self: center;
@@ -3534,7 +3541,7 @@ input, select, textarea {
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			width: 50%;
-			max-width: 48rem;
+			max-width: 60rem;
 			margin: 0 auto;
 		}
 
@@ -3548,7 +3555,7 @@ input, select, textarea {
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
 			border-radius: 0;
-			width: 50%;
+			width: 45%;
 		}
 
 			.banner.style1 .image img {
@@ -3572,7 +3579,8 @@ input, select, textarea {
 		@media screen and (max-width: 1200px) {
 
 			.banner.style1 .content {
-				padding: 1.5rem 5rem 0rem 4rem ;
+				padding: 1.5rem 4rem 0rem 4rem ;
+				
 			}
 
 		}
@@ -4455,7 +4463,7 @@ input, select, textarea {
 		}
 
 	.banner .image {
-		background-color: rgba(0, 0, 0, 0.125);
+		background-color: var(--imgbkg-color);
 	}
 
 	.banner.invert .image {
